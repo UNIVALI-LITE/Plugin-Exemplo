@@ -24,6 +24,7 @@ public final class AcaoPersonalizadaEstatica extends AbstractAction
     {
         try
         {
+            //Carregue aqui o caminho do icone do botao do plugin que vai estar disponível
             String caminho = "br/univali/portugol/plugin/exemplo/imagens/caution_biohazard.png";
             Image imagem = ImageIO.read(AcaoPersonalizadaEstatica.class.getClassLoader().getResourceAsStream(caminho));
 
@@ -38,6 +39,7 @@ public final class AcaoPersonalizadaEstatica extends AbstractAction
     @Override
     public void actionPerformed(ActionEvent e)
     {
+        //Aqui estará o que seu botão fará, a ação dele
         JOptionPane.showMessageDialog(null, "O plugin executou uma ação personalizada estática!!", "Plugin Exemplo", JOptionPane.INFORMATION_MESSAGE);
     }
 }

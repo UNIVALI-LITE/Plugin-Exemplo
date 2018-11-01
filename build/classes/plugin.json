@@ -1,0 +1,14 @@
+{
+	"nome": "Plugin-Exemplo",
+	"versao": "1.0.0",
+	"classe": "br.univali.portugol.plugin.exemplo.PluginExemplo",
+	"descricao": "Plugin de exemplo, para ilustrar o desenvolvimento de plugins no Portugol Studio",
+	"autores": [{
+			"nome": "Luiz Fernando Noschang",
+			"email": "noschang@univali.br"
+		}, {
+			"nome": "Fillipi Domingos Pelz",
+			"email": "fillipi.pelz@univali.br"
+		}
+	]
+}
