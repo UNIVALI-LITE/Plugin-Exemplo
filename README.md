@@ -22,6 +22,21 @@ A função que seu botão irá executar dentro da IDE deve ser chamada na funç�
 
 Com isso, você pode adicionar qualquer nova função ao Portugol Studio. Importante lembrar que você tem acesso a todas as classes publicas do Portugol Studio, portanto caso sinta necessidade de alguma informação da IDE, você pode pegá-la chamando a classe correspondente da IDE.
 
+## Criando Biblioteca
+Dentro da Árvore do projeto no NetBeans você pode achar o pacote biblioteca:
+
+![image](https://cdn.discordapp.com/attachments/571157550956019741/644270561505050647/unknown.png)
+
+A classe nesse pacote é um exemplo de uma biblioteca que pode ser adicionada ao Portugol Studio. Existem duas funções de biblioteca programadas nela. Você pode alterar elas e adicionar novas funções, como também criar novas bibliotecas com diferentes funções.
+
+IMPORTANTE: Toda a função criada deve ter as notações de autor e documentação como está no exemplo! Isso é importante para que as pessoas que forem utilizar sua biblioteca saibam como ela funciona.
+
+![image](https://cdn.discordapp.com/attachments/571157550956019741/644270870189178880/unknown.png)
+
+Para fazer a biblioteca funcionar de verdade ser carregada no plugin você deve adicionar a seguinte linha na função de **Inicializar**:
+
+![image](https://cdn.discordapp.com/attachments/571157550956019741/644271161269682178/unknown.png)
+
 ## Testando no Portugol
 
 Para testar seu novo Plugin no Portugol Studio primeiro é necessário alterar o json de configurações.
