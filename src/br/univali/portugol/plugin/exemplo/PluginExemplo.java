@@ -2,6 +2,7 @@ package br.univali.portugol.plugin.exemplo;
 
 import br.univali.portugol.plugin.exemplo.acoes.AcaoPersonalizadaDinamica;
 import br.univali.portugol.plugin.exemplo.acoes.AcaoPersonalizadaEstatica;
+import br.univali.portugol.plugin.exemplo.biblioteca.Exemplo;
 import br.univali.ps.plugins.base.GerenciadorPlugins;
 import br.univali.ps.plugins.base.Plugin;
 import br.univali.ps.plugins.base.UtilizadorPlugins;
@@ -33,6 +34,7 @@ public final class PluginExemplo extends Plugin
         //Aqui você deve instalar todas as ações que seu plugin fará, ou seja, seus botões
         GerenciadorPlugins.getInstance().instalarAcaoPlugin(this, new AcaoPersonalizadaEstatica());
         GerenciadorPlugins.getInstance().instalarAcaoPlugin(this, new AcaoPersonalizadaDinamica());
+        this.utilizador.registrarBiblioteca(Exemplo.class);
     }
 
     @Override
